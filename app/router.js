@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('blog');
   this.route('bookmarks');
+  this.route('contacts');
 });
 
 export default Router;
